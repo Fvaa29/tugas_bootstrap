@@ -1,0 +1,27 @@
+.title h2{
+        border-bottom: 2px solid #ffc9ed;
+        width: 100%;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(252, 186, 248);
+        line-height: 0.1em;
+        text-align: center;
+}
+
+.title h2 span{
+    background: #ffffff;
+    padding: 0 40px 0 43px;
+    display: unset;
+    letter-spacing: 0.3em;
+    position: relative;
+    top: 2px;
+}
+
+.isi-service{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.page-link{
+    margin-left: 520px;
+}

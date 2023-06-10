@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tugas 2 CSS - Khofifah Oktaviani</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+	<!-- baris 1 -->
+	<div class="row">
+		<div class="col-md-12">
+			<!-- Awal baris 1 -->
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+						aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/header1.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="images/header2.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="images/header3.jpg" class="d-block w-100" alt="...">
+
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- baris 2 -->
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="index.html">Fvavour</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+						aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarColor03">
+						<ul class="navbar-nav me-auto">
+							<li class="nav-item">
+								<a class="nav-link active" href="index.html">Home
+									<span class="visually-hidden">(current)</span>
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+									aria-expanded="false">Product</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Flower Bouquet</a>
+									<a class="dropdown-item" href="#">Fresh Flower</a>
+									<a class="dropdown-item" href="#">Artificial Flower</a>
+									<div class="dropdown-divider">Flower Board</div>
+									<a class="dropdown-item" href="product.html">and more..</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Sale</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+							<li class="nav-item dropdown">
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Register/Login
+								</button>
+								
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h1 class="modal-title fs-5" id="exampleModalLabel">Login To Your Account</h1>
+												<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+											<div class="modal-body">
+												<form class="px-4 py-3">
+													<div class="mb-3">
+														<label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+														<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+													</div>
+													<div class="mb-3">
+														<label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+														<input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+													</div>
+													<div class="mb-3">
+														<div class="form-check">
+															<input type="checkbox" class="form-check-input" id="dropdownCheck">
+															<label class="form-check-label" for="dropdownCheck">
+																Remember me
+															</label>
+														</div>
+													</div>
+												</form>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#">New around here? Sign up</a>
+												<a class="dropdown-item" href="#">Forgot password?</a>
+												<div class="d-grid gap-2">
+													<button class="btn btn-primary" type="submit">Masuk</button>
+												</div>
+											</div>
+											<div class="modal-footer">
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<form class="d-flex">
+							<input class="form-control me-sm-2" type="search" placeholder="Search">
+							<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- baris 3 -->
+	<div class="row">
+		<!-- content1 -->
+		<div class="col-md-2 pt-5 pb-5">
+			<div class="card border-info mb-3" style="max-width: 20rem;">
+				<div class="card-header">About Us</div>
+				<div class="card-body">
+				<p>Fvavour Flower Shop merupakan perusahaan yang melayani produk terkait bunga seperti jasa pembuatan buket bunga, karangan bunga, dll.</p>
+				</div>
+			</div>
+			<h2 class="pt-5">Category</h2>
+			<ul class="list-group">
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					Wedding
+					<span class="badge bg-primary rounded-pill">14</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					Event
+					<span class="badge bg-primary rounded-pill">2</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					Best Seller
+					<span class="badge bg-primary rounded-pill">7</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					Gift
+					<span class="badge bg-primary rounded-pill">5</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					Hamper
+					<span class="badge bg-primary rounded-pill">10</span>
+				</li>
+			</ul>
+		</div>
+		<!-- main content -->
+		<div class="col-md-7 p-5">
+			<div class="service">
+				<div class="title">
+					<h2><span>OUR SERVICE</span></h2>
+				</div>
+				<div class="isi-service">
+					<figure class="text-center">
+						<blockquote class="blockquote">
+							<p class="mb-0">Menyediakan berbagai macam bunga untuk berbagai keperluan serta acara di Yogyakarta dan
+								sekitarnya..</p>
+						</blockquote>
+					</figure>
+				</div>
+			</div>
+			<div class="product pt-5">
+				<div class="title">
+					<h2><span>Our Product</span></h2>
+				</div>
+				<div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+					<div class="col">
+						<div class="card">
+							<img src="images/buket1.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Buket Bunga Wisuda 1</h5>
+								<p class="card-text">Buket bunga cantik dengan boneka beruang lucu yang dilengkapi dengan greeting card. <hr></p>
+								<h5 align="center">50k</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img src="images/buket2.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Hand Buket Bunga</h5>
+								<p class="card-text">Buket bunga tangan cantik yang siap menemani hari spesial anda <hr></p>
+								<h5 align="center">50k</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<img src="images/buket3.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Buket Bunga Balon</h5>
+								<p class="card-text">Buket bunga cantik yang siap menemani hari spesial anda
+									<hr>
+								</p>
+								<h5 align="center">50k</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<ul class="pagination">
+						<li class="page-item">
+							<a class="page-link" href="#"><h6>Selengkapnya&raquo;</h6></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- content2 -->
+		<div class="col-md-3 pt-5 pb-5">
+			<h2>Artikel Terkait</h2>
+			<ul class="list-group">
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					<a href="#" class="list-group-item list-group-item-action">Bagaimana cara melakukan pemesanan?</a>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					<a href="#" class="list-group-item list-group-item-action">Rekomendasi Buket Bunga Untuk Hadiah Spesial</a>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					<a href="#" class="list-group-item list-group-item-action">Bagaimana Cara Melakukan Pembayaran</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- baris 4 -->
+	<div class="row">
+		<div class="col-md-12">
+			<footer class="footer footer-expand-lg footer-dark bg-primary">
+				<!-- Copyright -->
+				<div class="text-center p-5">
+					&copy; 2023 - Khofifah Oktaviani
+				</div>
+				<!-- Copyright -->
+			</footer>
+		</div>
+	</div>
+</div>
+	<script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
